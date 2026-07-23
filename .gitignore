@@ -1,0 +1,47 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+*~
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+.npm/
+
+# Go
+bin/
+coverage.out
+
+# Build and test output
+dist/
+build/
+coverage/
+*.log
+
+# Local experiment output
+experiments/**/tmp/
+experiments/**/output/
+experiments/**/results-local/
+
+# SQLite transient files
+*.sqlite-shm
+*.sqlite-wal
+*.db-shm
+*.db-wal
